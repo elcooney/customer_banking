@@ -27,6 +27,7 @@ def create_savings_account(balance, interest_rate, months):
 
     # Calculate interest earned
     # ADD YOUR CODE HERE
+    # note from liz: I ask for the interest rate as a decimal in customer_banking.py, so I do not divide by 100 in the formula below
     interest_new = balance * (interest_rate * (months/12))
 
     # Update the savings account balance by adding the interest earned
