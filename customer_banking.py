@@ -10,7 +10,7 @@ def main():
     It displays the interest earned on the savings and CD accounts and updates the balances.
     """
     # Prompt the user to set the savings balance, interest rate, and months for the savings account.
-    # ADD YOUR CODE HERE - note to liz: add in some defensive coding
+    # ADD YOUR CODE HERE
     
     # savings balance prompt. check that balance is a number.
     while True: 
